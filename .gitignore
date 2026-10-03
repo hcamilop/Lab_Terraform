@@ -1,0 +1,15 @@
+# Carpeta local de Terraform (plugins descargados, cache)
+.terraform/
+
+# Archivos de estado (contienen datos sensibles)
+*.tfstate
+*.tfstate.*
+
+# Variables reales con contraseñas (no se suben)
+terraform.tfvars
+*.auto.tfvars
+
+# Logs y archivos temporales
+crash.log
+crash.*.log
+*.tfplan
